@@ -1,12 +1,111 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<meta charset='utf-8' />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" type="text/css" media="all" href="style.css">
-	<title>gh-pages template</title>
+<title>Fabian Caba Heilbron</title>
+<style>
+h1 { padding : 0; margin : 0; }
+body { padding : 0; font-family : Arial; font-size : 16px;  background-color : #EFEFEF;} /* background-image : url('bg.png');}*/
+#container { width : 900px; margin : 20px auto; border-radius: 20px;  background-color : #fff; padding : 50px;  box-shadow: 0px 0px 40px #666; } /* border : 1px solid #ccc; } */
+#me { border : 0 solid black; margin-bottom : 50px;}
+#sidebar { margin-left : 25px; border : 0 solid black; float : right; margin-bottom : 0;}
+#content { display : block; }
+a { text-decoration : none; }
+a:hover { text-decoration : underline; }
+a, a:visited { color : #0050e7; }
+a.invisible { color : inherit; text-decoration : inherit; }
+.publogo { margin-right : 20px; float : left; border : 0;}
+.publication { clear : left; padding-bottom : 0px; }
+.publication p { height : 100px; padding-top : 5px;}
+.publication strong a { color : #000; }
+.publication .links { position : relative; top : 15px }
+.publication .links a { margin-right : 20px; }
+.codelogo { margin-right : 10px; float : left; border : 0;}
+.code { clear : left; padding-bottom : 10px; vertical-align :middle;} 
+.code .download a { display : block; margin : 0 15px; float : left;}
+.code strong a { color : #000; }
+#simpsons { margin : 5px auto; text-align : left; color : #B7B7B7; }
+#erdos { color : #999; text-align : center; font-size : 12px; }
+.contact { margin-left : 40px; }
+.contact td { width : 300px; vertical-align : top; }
+.schoollogo { text-align : center; color : #999; width : 150px;}
+.schoollogo img { margin-bottom : 10px; }
+</style>
+
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-17813713-3']);
+_gaq.push(['_setDomainName', '.mit.edu']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+
 </head>
 <body>
-  <div id="Helloworld">Trying GitHub pages</div>
+<div id="container">
+<div id="content">
+<div itemscope itemtype="http://data-vocabulary.org/Person">
+<h1><span itemprop="name">Fabian Caba Heilbron</span></h1>
+
+<div id="sidebar">
+<img src="me5.jpg" id="me" itemprop="photo">
+</div>
+
+<p> Currently, I am doing an internship at <a href="http://www.kaust.edu.sa/">KAUST</a> (Kingdom of Saudi Arabia) advised by Professor <a href="http://www.bernardghanem.com/">Bernard Ghanem</a>. My research interests lie in Computer Vision and Machine Learning. Specifically, I aim to tackle challenges of human activity recognition at large scale. I study efficient ways to harvest and annotate massive amount of data depicting human activities. Ultimately, I explore novel ideas in order to help computers to understand the complex visual world of the human motion.</p>
+
+<p> I received my Master degree in Electronics from <a href="http://www.uninorte.edu.co/">Universidad del Norte</a> in 2013, under the supervision of Professor <a href="http://www.niebles.net/">Juan Carlos Niebles</a>.</p>
+
+<p>I am best contacted by email:</p>
+
+<table class="contact">
+<tr>
+<td>
+    Email: <a href="mailto:fabiancabaheilbron@gmail.com">fabiancabaheilbron@gmail.com</a><br>
+    GChat: fabiancabaheilbron@gmail.com
+</td>
+<td itemprop="address">
+    <a href="http://vcc.kaust.edu.sa/Pages/Home.aspx">Geometric Modeling and Scientific Visualization Center</a><br>
+    King Abdullah University of Science and Technology<br>
+    <a href="https://www.google.com/maps/place/Al+Khawarizmi+Building/@22.3085679,39.1048704,17z/data=!3m1!4b1!4m2!3m1!1s0x15c11c50619ad163:0xfcf9bae91833e7f9">Al Khawarizmi Building (Bldg 1). Thuwal, Kingdom of Saudi Arabia</a><br>
+</td>
+</tr>
+</table>
+
+</div>
+
+<h2>Publications</h2>
+
+<div class="publication">
+<a href="http://yamdrok.stanford.edu/crowd/icmr.pdf"><img src="crowd2.jpg" class="publogo"></a>
+<p>
+<strong><a href="http://yamdrok.stanford.edu/crowd/icmr.pdf">Collecting and Annotating Human Activities in Web Videos</a></strong><br>
+Fabian Caba Heilbron, Juan Carlos Niebles<br>
+<em>ICMR 2014</em><br>
+<span class="links"><a href="http://yamdrok.stanford.edu/crowd/icmr.pdf">Paper</a> <a href="#">Poster</a></span> 
+</div>
+
+<!--
+<h2>Thesis</h2>
+
+<div class="publication">
+<a href="mthesis.pdf"><img src="thesis.png" class="publogo"></a>
+<p><strong><a href="#">Retrieving, Annotating and Recognizing Human Activities in Web Videos</a></strong><br>
+Fabian Caba<br>
+<em>M.S. Thesis, Universidad del Norte, 2013</em><br>
+<span class="links"><a href="#">Thesis</a> </span>
+</p>
+</div>
+-->
+<p style="text-align:center;font-size:16px;padding-top:20px;">In God we trust. All others must bring data.<br>&mdash; <a href="http://en.wikipedia.org/wiki/W._Edwards_Deming">W. Edwards Deming</a></p>
+
+</div>
+</div>
+
 </body>
 </html>
